@@ -1,0 +1,102 @@
+$color-orange:#FF5722;
+
+$color-white:#F8F8F8;
+
+$color-white-pure:#FFFFFF;
+
+$color-black-pure:#000000;
+
+$color-gray-primary:#333333;
+
+$color-gray-secondary:#545454;
+
+$color-blue:#0065dc;
+
+
+
+@mixin flex(){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+@font-face {
+    font-family: dana;
+    src:url(../assets/fonts/dana-fanum-regular.woff) format('woff') ;
+}
+
+@font-face {
+    font-family: iranyekan;
+    src:url(../assets/fonts/iranyekanwebregular.woff) format('woff') ;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button{
+    font-family: dana,iranyekan;
+
+}
+
+.btn{
+    // padding: 10px 40px;
+    width: 150px;
+    height: 45px;
+    background-color: $color-orange;
+    color: $color-white-pure;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.gray-bg{
+    background-color: #f8f8f8 !important;
+}
+
+.flex{
+    display: flex !important;
+}
+
+.none{
+    display: none !important;
+}
+
+.op-1{
+    opacity: 1 !important;
+}
+
+.border-none{
+    border: none !important;
+}
+
+.w-100{
+    width: 100% !important;
+}
