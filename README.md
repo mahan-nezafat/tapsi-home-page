@@ -1,5 +1,5 @@
-# tapsi-landing-page
-tapsi.ir responsive landing page with HTML, Sass, CSS, Js
+# tapsi-home-page
+tapsi.ir responsive home page with HTML, Sass, CSS, Js
 
 # description 
 this project was created with HTML, Css, Sass, Javascript. in this project I tried to impelent the original website design with Sass only instead of
